@@ -6,7 +6,20 @@ import org.tempuri.IC_Mobile_WcfLocator;
 import org.tempuri.MobileWebService;
 import org.tempuri.SecureEndpointStub;
 
-
+/**
+ * This is the class we'll use to interact with the web service
+ * 
+ * To first create the referenced needed here to org.tempuri
+ * 	I accessed the web service and navigated to the wsdl link
+ * 	There I saved the contents of the page to a local file as .wsdl
+ * 	I imported the file into this project
+ * 	I created a new Other->Web Services->Web Service Client
+ * 	Set the level to Deploy and browsed to the wsdl file in the project
+ * 		for the definition
+ * 	Eclipse did the rest and generated the references 
+ * @author James
+ *
+ */
 public class MyWebServiceClient {
 	private final static String TAG = "MyWebService";
 
